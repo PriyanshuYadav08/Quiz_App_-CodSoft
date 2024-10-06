@@ -13,9 +13,12 @@
         android:theme="@style/Theme.QuizApp"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".SplashScreen"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 66e231683bb370948312d0e8f9728edcffd8545f
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
