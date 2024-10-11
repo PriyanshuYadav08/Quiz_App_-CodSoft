@@ -1,5 +1,6 @@
 package com.example.quizapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -35,6 +36,12 @@ class SignUpScreen : AppCompatActivity() {
         val signUpButton = findViewById<Button>(R.id.sign_up)
         signUpButton.setOnClickListener {
             signupuser()
+        }
+
+        val loginButton = findViewById<Button>(R.id.login_button)
+        loginButton.setOnClickListener {
+            val intent = Intent(this, LoginScreen::class.java)
+            startActivity(intent)
         }
     }
 
