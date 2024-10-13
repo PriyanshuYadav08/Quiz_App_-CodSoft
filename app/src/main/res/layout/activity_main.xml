@@ -31,8 +31,10 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drwaer_header"
+        app:menu="@menu/drawer_menu"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start">
+        android:layout_height="match_parent">
     </com.google.android.material.navigation.NavigationView>
 </androidx.drawerlayout.widget.DrawerLayout>
