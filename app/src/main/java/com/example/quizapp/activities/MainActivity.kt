@@ -1,4 +1,4 @@
-package com.example.quizapp
+package com.example.quizapp.activities
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.quizapp.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
@@ -29,7 +30,10 @@ class MainActivity : AppCompatActivity() {
 
     fun setupdrawer(){
         setSupportActionBar(findViewById(R.id.appbar))
-        actionBarDrawerToggle = ActionBarDrawerToggle(this, findViewById(R.id.main), R.string.app_name, R.string.app_name)
+        actionBarDrawerToggle = ActionBarDrawerToggle(this, findViewById(R.id.main),
+            R.string.app_name,
+            R.string.app_name
+        )
         actionBarDrawerToggle.syncState()
     }
 

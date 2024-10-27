@@ -1,4 +1,4 @@
-package com.example.quizapp
+package com.example.quizapp.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.quizapp.R
 import com.google.firebase.auth.FirebaseAuth
 
 class SplashScreen : AppCompatActivity() {
@@ -35,8 +36,8 @@ class SplashScreen : AppCompatActivity() {
 
     private fun redirection(name:String){
         val intent = when(name){
-            "Login"->Intent(this,LoginScreen::class.java)
-            "Main"->Intent(this,MainActivity::class.java)
+            "Login"->Intent(this, LoginScreen::class.java)
+            "Main"->Intent(this, MainActivity::class.java)
             else->throw Exception("path does not exist")
         }
         startActivity(intent)

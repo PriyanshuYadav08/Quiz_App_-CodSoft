@@ -1,4 +1,4 @@
-package com.example.quizapp
+package com.example.quizapp.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.quizapp.R
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpScreen : AppCompatActivity() {

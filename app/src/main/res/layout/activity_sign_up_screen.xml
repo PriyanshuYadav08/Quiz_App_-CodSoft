@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:background="@color/purple"
-    tools:context=".SignUpScreen">
+    tools:context=".activities.SignUpScreen">
 
     <TextView
         android:id="@+id/textView4"
