@@ -34,8 +34,21 @@ class MainActivity : AppCompatActivity() {
 
     private fun dummydata() {
         quiz_list.add(quiz("10","10"))
+        quiz_list.add(quiz("10","10"))
+        quiz_list.add(quiz("10","10"))
+        quiz_list.add(quiz("11","11"))
+        quiz_list.add(quiz("11","11"))
+        quiz_list.add(quiz("11","11"))
         quiz_list.add(quiz("11","11"))
         quiz_list.add(quiz("12","12"))
+        quiz_list.add(quiz("12","12"))
+        quiz_list.add(quiz("12","12"))
+        quiz_list.add(quiz("12","12"))
+        quiz_list.add(quiz("12","12"))
+        quiz_list.add(quiz("13","13"))
+        quiz_list.add(quiz("13","13"))
+        quiz_list.add(quiz("13","13"))
+        quiz_list.add(quiz("13","13"))
         quiz_list.add(quiz("13","13"))
     }
 
